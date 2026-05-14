@@ -1,0 +1,17 @@
+{
+  "name": "lostandfound-mern",
+  "version": "1.0.0",
+  "description": "Lost and Found MERN Stack Application",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "cd backend && npm run dev"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "leaflet": "^1.9.4",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-scripts": "^5.0.1"
+  }
+}
